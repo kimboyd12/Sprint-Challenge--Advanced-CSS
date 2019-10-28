@@ -62,7 +62,16 @@
       }
 
       .btn {
+        .button (@btn-bg-color, white, 2rem, 5px);
+        padding: 2%;
+        width: 30%;
+        text-align: center;
+
+      &:hover {
+        background-color:white;
+        color: @btn-bg-color;
       }
+    
     }
 
     .walk-img {
