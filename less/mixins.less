@@ -1,1 +1,18 @@
 // Mixins Here
+
+.button(@bg-color, @fontcolor, @size, @radius) {
+    background-color: @bg-color;
+    color: @fontcolor;
+    font-size: @size;
+    border-radius: @radius;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.width-margin {
+    width: 100%;
+    margin: 0 auto;
+}
